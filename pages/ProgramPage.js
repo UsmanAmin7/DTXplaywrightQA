@@ -83,7 +83,7 @@ export class ProgramPage {
   await this.page.keyboard.press('Enter');
   await this.page.waitForTimeout(250);
 
-  // Checkbox & Submit
+  // Checkbox & Submit TestingCommit
   await this.page.getByRole('checkbox', { name: 'Create Separate Database' }).check();
   await this.page.waitForTimeout(200);
   await this.submitButton.click();
